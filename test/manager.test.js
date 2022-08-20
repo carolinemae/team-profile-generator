@@ -1,53 +1,50 @@
 const Manager = require('../lib/manager');
 
 describe('Manager', () => {
-    it('correct name', () => {
-        let position = 'Manager',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
+    describe('Initialization', () => {
+        it('correct name', () => {
+            let position = 'Manager',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
 
-        const man = new Manager(name, id, email, position);
+            const man = new Manager(name, id, email, position);
 
-        expect(man.getName()).toBe(name);
-    })
-})
+            expect(man.getName()).toBe(name);
+        });
 
-describe('Manager', () => {
-    it('correct id', () => {
-        let position = 'Manager',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
+        it('correct id', () => {
+            let position = 'Manager',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
+    
+            const man = new Manager(name, id, email, position);
+    
+            expect(man.getID()).toBe(id);
+        });
 
-        const man = new Manager(name, id, email, position);
+        it('correct email', () => {
+            let position = 'Manager',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
+    
+            const man = new Manager(name, id, email, position);
+    
+            expect(man.getEmail()).toBe(email);
+        });
 
-        expect(man.getID()).toBe(id);
-    })
-})
+        it('correct position', () => {
+            let position = 'Manager',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
+    
+            const man = new Manager(name, id, email, position);
+    
+            expect(man.getRole()).toBe(position);
+        })
 
-describe('Manager', () => {
-    it('correct email', () => {
-        let position = 'Manager',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
-
-        const man = new Manager(name, id, email, position);
-
-        expect(man.getEmail()).toBe(email);
-    })
-})
-
-describe('Manager', () => {
-    it('correct position', () => {
-        let position = 'Manager',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
-
-        const man = new Manager(name, id, email, position);
-
-        expect(man.getRole()).toBe(position);
     })
 })

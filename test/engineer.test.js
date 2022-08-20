@@ -1,53 +1,50 @@
 const Engineer = require('../lib/Engineer');
 
 describe('Engineer', () => {
-    it('correct name', () => {
-        let position = 'Engineer',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
+    describe('Initialization', () => {
+        it('correct name', () => {
+            let position = 'Engineer',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
 
-        const eng = new Engineer(name, id, email, position);
+            const eng = new Engineer(name, id, email, position);
 
-        expect(eng.getName()).toBe(name);
-    })
-})
+            expect(eng.getName()).toBe(name);
+        });
 
-describe('Engineer', () => {
-    it('correct id', () => {
-        let position = 'Engineer',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
+        it('correct id', () => {
+            let position = 'Engineer',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
+    
+            const eng = new Engineer(name, id, email, position);
+    
+            expect(eng.getID()).toBe(id);
+        });
 
-        const eng = new Engineer(name, id, email, position);
+        it('correct email', () => {
+            let position = 'Engineer',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
+    
+            const eng = new Engineer(name, id, email, position);
+    
+            expect(eng.getEmail()).toBe(email);
+        });
 
-        expect(eng.getID()).toBe(id);
-    })
-})
+        it('correct position', () => {
+            let position = 'Engineer',
+                name = 'test',
+                id = '123',
+                email = 'test@example.com';
+    
+            const eng = new Engineer(name, id, email, position);
+    
+            expect(eng.getRole()).toBe(position);
+        });
 
-describe('Engineer', () => {
-    it('correct email', () => {
-        let position = 'Engineer',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
-
-        const eng = new Engineer(name, id, email, position);
-
-        expect(eng.getEmail()).toBe(email);
-    })
-})
-
-describe('Engineer', () => {
-    it('correct position', () => {
-        let position = 'Engineer',
-            name = 'test',
-            id = '123',
-            email = 'test@example.com';
-
-        const eng = new Engineer(name, id, email, position);
-
-        expect(eng.getRole()).toBe(position);
     })
 })

@@ -54,6 +54,10 @@ See [screenshots](#screenshots) to view example.
 ## Links
 GitHub: [https://github.com/carolinemae](https://github.com/carolinemae/team-profile-generator)
 
+Video (application): [https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view](https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view)
+
+Video (tests): [https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view](https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view)
+
 Email: [carolinemaee@live.com](mailto:carolinemaee@live.com)
 
 [Back to the top](#team-profile-generator)
