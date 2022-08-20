@@ -56,7 +56,7 @@ GitHub: [https://github.com/carolinemae](https://github.com/carolinemae/team-pro
 
 Video (application): [https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view](https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view)
 
-Video (tests): [https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view](https://drive.google.com/file/d/18z6q2ihXEqgetW31uoW-Qh3Ed5Z1yvQ8/view)
+Video (tests): [https://drive.google.com/file/d/1rGRspzNslWHxW0cWmjktCGMlhzZ4bGI6/view](https://drive.google.com/file/d/1rGRspzNslWHxW0cWmjktCGMlhzZ4bGI6/view)
 
 Email: [carolinemaee@live.com](mailto:carolinemaee@live.com)
 
