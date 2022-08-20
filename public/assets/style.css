@@ -1,0 +1,76 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: rgb(11, 17, 53);
+    width: 100vw;
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: rgb(235, 235, 235);
+    box-shadow: 3px 5px rgba(128, 128, 128, 0.516);
+    border-radius: 5px;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card-header {
+    background-color: rgba(11, 17, 53, 0.884);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.fa {
+    padding-right: 10px;
+}
+
+h2, h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 20px 15px;
+}
+
+li {
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 10px 5px;
+    margin: 15px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(11, 17, 53, 0.884);
+}
+
+#employee-name {
+    text-transform: capitalize;
+}
