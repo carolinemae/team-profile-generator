@@ -5,7 +5,10 @@ const Engineer = require('./lib/engineer');
 const Intern = require('./lib/intern');
 const renderHTML = require('./src/generateHTML');
 
+// Creates an array of employees generated from Node.js
 const employees = [];
+
+// Creates a string of employee cards
 let employeeCards = '';
 
 let managerQuestions = [
@@ -29,10 +32,12 @@ let internQuestions = [
     {type: 'input', name: 'school', message: `What is the Intern's school?`},
 ];
 
+// Final question for all classes
 let addRole = [
     {type: 'list', name: 'add', message: `Add another employee?`, choices: ['Engineer', 'Intern', 'Finished']},
 ];
 
+// Function to prompt final question and execute depending on user selection
 function addEmployee() {
     inquirer.prompt(addRole).then((answer) => {
         if (answer.add == 'Engineer') {
@@ -45,6 +50,7 @@ function addEmployee() {
     })
 }
 
+// Creates manager (is prompted first)
 function createManager() {
     inquirer.prompt(managerQuestions).then((answers) => {
         const { name, id, email, officeno } = answers;
@@ -58,6 +64,7 @@ function createManager() {
     })
 }
 
+// Creates engineer (is prompted only if selected by user)
 function createEngineer() {
     inquirer.prompt(engineerQuestions).then((answers) => {
         const { name, id, email, github } = answers;
@@ -71,6 +78,7 @@ function createEngineer() {
     })
 }
 
+// Creates intern (is prompted only if selected by user)
 function createIntern() {
     inquirer.prompt(internQuestions).then((answers) => {
         const { name, id, email, school } = answers;
@@ -84,6 +92,7 @@ function createIntern() {
     })
 }
 
+// String to create card
 function createCard(position, name, id, email, other) {
     employeeCards +=
 `<div class="card">
@@ -126,8 +135,10 @@ function createCard(position, name, id, email, other) {
     };
 }
 
+// Sends employee cards to HTML
 function generateHTML(employeeCards) {
     renderHTML(employeeCards);
 }
 
+// Initial function call
 createManager();

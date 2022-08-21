@@ -1,5 +1,6 @@
 const fs = require('fs');
 
+// Generates HTML and adds the employee cards to the correct section in the code
 const generateHTML = (employeeCards) =>
 `<!DOCTYPE html>
 <html lang="en">
@@ -28,6 +29,7 @@ const generateHTML = (employeeCards) =>
     </div>
 </body>`;
 
+// Writes to HTML file
 module.exports = function renderHTML(employeeCards) {
     const HTMLcontent = generateHTML(employeeCards);
 
